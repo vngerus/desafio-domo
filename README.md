@@ -25,14 +25,8 @@ El desafío tiene como objetivo evaluar mis capacidades técnicas en:
 ## Despliegue
 
 El proyecto ha sido desplegado en Netlify para su fácil visualización:
-
-## Contacto
-
-Para cualquier consulta o comentario acerca de esta prueba, no dudes en contactarme:
-
-- **Email**: angelsmithlgs@gmail.com
-- **GitHub**: [vngerus](https://github.com/vngerus)
+[Desafío Domo](https://desafio-domo.netlify.app)
 
 ---
 
-¡Gracias al equipo de DOMO por la oportunidad de realizar este desafío!
+Gracias al equipo de DOMO por la oportunidad de realizar este desafío!
