@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Comet - Desafío DOMO</title>
+    <link rel="icon" href="/assets/imgs/loader.webp" type="image/x-icon">
+    <!-- BS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!--  CSS -->
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <!-- FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- RRSS -->
+            <div class="social-icons d-none d-md-flex">
+                <a href="#"><img src="/assets/icons/x-icon.webp" alt="X icon" style="width: 24px;"></a>
+                <a href="#" class="ms-3"><img src="/assets/icons/ig-icon.webp" alt="Instagram icon"
+                        style="width: 24px;"></a>
+                <a href="#" class="ms-3"><img src="/assets/icons/in-icon.webp" alt="LinkedIn icon"
+                        style="width: 24px;"></a>
+                <a href="#" class="ms-3"><img src="/assets/icons/dr-icon.webp" alt="Dribble icon"
+                        style="width: 24px;"></a>
+            </div>
+            <!-- Title -->
+            <div class="logo d-flex align-items-center justify-content-center">
+                <img src="/assets/imgs/loader.webp" alt="Loader icon" class="loader me-2" style="width: 40px;">
+                <h2>Comet</h2>
+            </div>
+
+            <!-- Toggle -->
+            <div class="menu-icon">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarIcons"
+                    aria-controls="navbarIcons" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="/assets/icons/menu-icon.webp" alt="Menu icon" style="width: 34px;">
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile -->
+        <div class="collapse d-md-none" id="navbarIcons">
+            <div class="d-flex justify-content-center mt-3">
+                <a href="#"><img src="/assets/icons/x-icon.webp" alt="X icon" style="width: 24px;"></a>
+                <a href="#" class="ms-3"><img src="/assets/icons/ig-icon.webp" alt="Instagram icon"
+                        style="width: 24px;"></a>
+                <a href="#" class="ms-3"><img src="/assets/icons/in-icon.webp" alt="LinkedIn icon"
+                        style="width: 24px;"></a>
+                <a href="#" class="ms-3"><img src="/assets/icons/dr-icon.webp" alt="Globe icon"
+                        style="width: 24px;"></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <main class="my-5">
+        <div class="container">
+            <div class="row align-items-center flex-md-row-reverse">
+                <!-- IMG -->
+                <div class="col-12 col-md-6">
+                    <img src="/assets/imgs/girlwithpc.webp" class="img-fluid rounded" alt="chica con laptop" />
+                </div>
+
+                <!-- Txt Hero -->
+                <div class="col-md-6 text-md-start text-center">
+                    <h5 class="text-primary">Core features</h5>
+                    <h1>Develop systematically with Comet.</h1>
+                    <p><strong>Adaptable sections are ideal</strong> <span
+                            class="text-secondary d-none d-md-inline"><br>
+                            for crafting versatile layouts.</span><span class="d-inline d-md-none">for crafting
+                            versatile layouts.</span></p>
+
+                    <!-- Txt -->
+                    <div class="row mt-4">
+                        <div class="col-12 col-md-6 mb-3">
+                            <div class="icon mb-2">
+                                <i class="fas fa-fingerprint" style="color: #32CD32; font-size: 3rem;"></i>
+                            </div>
+                            <h4>System analyze your <br> data</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#">Learn more <img src="/assets/icons/arrow.svg" alt="Arrow icon"
+                                    style="width: 16px;"></a>
+                        </div>
+                        <div class="col-12 col-md-6 mb-3">
+                            <div class="icon mb-2">
+                                <i class="fas fa-phone" style="color: #cf79e5; font-size: 3rem;"></i>
+                            </div>
+                            <h4>Direct system <br> management</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#">Learn more <img src="/assets/icons/arrow.svg" alt="Arrow icon"
+                                    style="width: 16px;"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>Powered by <a href="https://github.com/vngerus" target="_blank" rel="noopener noreferrer">Vngerus</a> for
+            desafío DOMO</p>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="learnMoreModal" tabindex="-1" aria-labelledby="learnMoreModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="learnMoreModalLabel">Contenido no disponible</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Este contenido actualmente no está disponible. ¡Gracias por participar en este desafío DOMO!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    <!-- JS -->
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

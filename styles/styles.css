@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FBFCF8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header S */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    
+}
+
+header .social-icons a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+header .social-icons img {
+    width: 100%;
+    height: auto;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo .loader {
+    margin-right: 10px;
+}
+
+header .logo h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+header .menu-icon img {
+    width: 34px;
+    height: auto;
+}
+
+/* Hero S */
+main {
+    padding: 2rem 0;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.;
+    margin-bottom: 1rem;
+    color: #333;
+}
+h2 {
+    font-weight: 900;
+}
+
+h5 {
+    font-size: 1rem;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 1rem;
+    color: #6c757d;
+    font-weight: 600;
+}
+
+p span.text-secondary {
+    color: #6c757d; 
+    font-size: 1.4rem;
+}
+
+p strong {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #232425;
+}
+
+/* Learn more S */
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+a .underline {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Icon S */
+.icon i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.icon i.fingerprint {
+    color: #32CD32; 
+}
+
+.icon i.phone {
+    color: #cf79e5;
+}
+
+/* Image S */
+.img-fluid {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer S */
+footer {
+    background-color: #FBFCF8;
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #6c757d;
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    header .social-icons {
+        margin-bottom: 1rem;
+    }
+
+    header .menu-icon {
+        margin-top: 1rem;
+    }
+
+    .icon i {
+        font-size: 2.5rem;
+    }
+}
